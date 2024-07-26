@@ -1,0 +1,165 @@
+body {
+ font-family: 'Poppins', sans-serif;
+}
+.navbar-brand{
+ font-weight: bold;
+}
+.hero-section {
+ background: url('/pexels-sarahdorweiler-8408542.jpg') no-repeat center center;
+ background-size: cover;
+ padding: 100px 0;
+}
+
+.hero-section h1 {
+ font-size: 3rem;
+ font-weight: 600;
+
+}
+
+.hero-section .lead {
+ font-size: 1.25rem;
+ margin-bottom: 1rem;
+}
+.features-section .fa-3x {
+ color: #007bff;
+ margin-bottom: 1rem;
+}
+
+.features-section h3 {
+ margin-bottom: 1rem;
+}
+.example-videos-section .card {
+ border: none;
+}
+
+.example-videos-section .card-img-top {
+ height: 200px;
+ object-fit: cover;
+}
+
+footer p {
+ margin: 5px 0;
+ font-size: 0.85rem !important;
+}
+
+footer .fab {
+ color: #f8f9fa;
+ font-size: 1.2rem;
+}
+.about-me-section img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.skills-section .fa-3x {
+    color: #007bff;
+    margin-bottom: 1rem;
+}
+
+.skills-section h5 {
+    margin-bottom: 1rem;
+}
+
+.experience-section .timeline {
+    list-style: none;
+    padding: 0;
+    position: relative;
+}
+
+.experience-section .timeline:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 4px;
+    background: #007bff;
+    left: 50%;
+    margin-left: -2px;
+}
+
+.experience-section .timeline > li {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.experience-section .timeline > li:before, .experience-section .timeline > li:after {
+    content: " ";
+    display: table;
+}
+
+.experience-section .timeline > li:after {
+    clear: both;
+}
+
+.experience-section .timeline > li .timeline-panel {
+    width: 46%;
+    float: left;
+    border: 1px solid #d4d4d4;
+    padding: 20px;
+    position: relative;
+    border-radius: 2px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.experience-section .timeline > li .timeline-panel:before {
+    content: '';
+    position: absolute;
+    top: 26px;
+    right: -14px;
+    border-top: 14px solid transparent;
+    border-left: 14px solid #d4d4d4;
+    border-right: 0 solid #d4d4d4;
+    border-bottom: 14px solid transparent;
+    display: block;
+    width: 0;
+}
+
+.experience-section .timeline > li .timeline-panel:after {
+    content: '';
+    position: absolute;
+    top: 27px;
+    right: -12px;
+    border-top: 13px solid transparent;
+    border-left: 13px solid #fff;
+    border-right: 0 solid #fff;
+    border-bottom: 13px solid transparent;
+    display: block;
+    width: 0;
+}
+
+.experience-section .timeline > li .timeline-badge {
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+    text-align: center;
+    position: absolute;
+    top: 16px;
+    left: 50%;
+    margin-left: -25px;
+    background-color: #007bff;
+    z-index: 100;
+    border-radius: 50%;
+    box-shadow: 0 0 0 5px #f4f4f4;
+}
+
+.experience-section .timeline > li.timeline-inverted .timeline-panel {
+    float: right;
+}
+
+.experience-section .timeline > li.timeline-inverted .timeline-panel:before {
+    border-left-width: 0;
+    border-right-width: 14px;
+    left: -14px;
+    right: auto;
+}
+
+.experience-section .timeline > li.timeline-inverted .timeline-panel:after {
+    border-left-width: 0;
+    border-right-width: 13px;
+    left: -12px;
+    right: auto;
+}

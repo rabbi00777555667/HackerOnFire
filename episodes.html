@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Episodes</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="episodes.js" defer></script>
+</head>
+<body>
+    <h1>Episodes</h1>
+    <button id="back-button">Back</button>
+
+    <form id="episode-form">
+        <input type="text" id="episode-number" placeholder="Episode Number" required>
+        <input type="url" id="episode-download-link" placeholder="Download Link" required>
+        <button type="submit">Add Episode</button>
+    </form>
+
+    <div id="episodes-list"></div>
+</body>
+</html>

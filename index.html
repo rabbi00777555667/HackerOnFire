@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Main Panel</title>
+	<link rel="stylesheet" href="styles.css">
+	<script type="module" src="index.js" defer></script>
+</head>
+
+<body>
+	<!-- Login Container -->
+	<div id="login-container" style="display:none;">
+		<a href="login.html">Login</a>
+	</div>
+
+	<!-- Panel Container -->
+	<div id="panel-container" style="display:none;">
+		<button id="logout-button">Logout</button>
+
+		<!-- Slides Form -->
+		<h2>Add Slide</h2>
+		<form id="slide-form">
+			<input type="text" id="slide-link" placeholder="Slide Link" required>
+			<input type="file" id="slide-image" accept="image/*" required>
+			<button type="submit">Add Slide</button>
+		</form>
+
+		<div id="slides-list"></div>
+
+		<!-- Anime Form -->
+		<h2>Add Anime</h2>
+		<form id="anime-form">
+			<label for="anime-title">Title:</label>
+			<input type="text" id="anime-title" required>
+			<label for="anime-season">Season:</label>
+			<input type="text" id="anime-season" required>
+			<label for="anime-image">Image:</label>
+			<input type="file" id="anime-image" required>
+			<button type="submit">Add Anime</button>
+		</form>
+
+		<div id="anime-list"></div>
+	</div>
+</body>
+
+</html>
